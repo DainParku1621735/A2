@@ -7,7 +7,7 @@ import Dice
 
 class Horse:
     def __init__(self, speed, y, image, window):
-        self.x_pos=50
+        self.x_pos=0
         self.y_pos=y
         self.image=image
         self.dice=Dice.Dice(speed)
